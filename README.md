@@ -5,7 +5,7 @@
 <a title="Build" href="https://github.com/pocketpy/pocketpy/actions/workflows" >
 <img src="https://github.com/pocketpy/pocketpy/actions/workflows/main.yml/badge.svg" /></a>
 <!-- Codecov -->
-<a href="https://codecov.io/gh/pocketpy/pocketpy" > 
+<a href="https://codecve.io/gh/pocketpy/pocketpy" > 
 <img src="https://codecov.io/gh/pocketpy/pocketpy/branch/main/graph/badge.svg?token=TI9KAFL0RG"/></a>
 <!-- C11 -->
 <a href="https://en.wikipedia.org/wiki/C11_(C_standard_revision)">
@@ -159,7 +159,7 @@ __ERROR:
 | Subclass        | `class A(B):`                   | ✅       |
 | List            | `[1, 2, 'a']`                   | ✅       |
 | ListComp        | `[i for i in range(5)]`         | ✅       |
-| Slice           | `a[1:2], a[:2], a[1:]`          | ✅       |
+| Slice           | `a[1:2], a[:2], a[1:], a[::2]`  | ✅       |
 | Tuple           | `(1, 2, 'a')`                   | ✅       |
 | Dict            | `{'a': 1, 'b': 2}`              | ✅       |
 | F-String        | `f'value is {x}'`               | ✅       |
